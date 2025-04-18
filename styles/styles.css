@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* RESET */
+
 *,
 *::after,
 *::before {
@@ -8,12 +10,76 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
+/* MAIN */
 
+body {
+  font-family: "Work Sans", sans-serif;
+  min-height: 100vh;
+  position: relative;
+  font-size: 1rem;
+  background-color: hsl(276, 100.00%, 97.10%);
+  background-image: url(/assets/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+}
 
+.container {
+  background-color: white;
+  width: 90%;
+  height: auto;
+  place-self: center;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.faq {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+
+.star-symbol {
+  width: 2rem;
+  height: auto;
+}
+
+.h1-faq {
+  color: hsl(292, 42%, 14%);
+  font-size: 2.5rem;
+}
+
+.sections {
+  background-color: aquamarine;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.minus-icon {
+  display: none;
+}
 
 .attribution {
-  font-size: 11px; text-align: center;
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
