@@ -5,7 +5,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://github.com/Emmanuel-Malik/frontendmentor-faq-accordion)
 - Live Site URL: (https://your-live-site-url.com)
 
 
