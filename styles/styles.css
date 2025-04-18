@@ -88,6 +88,31 @@ body {
 .questions {
   color: hsl(292, 42%, 14%);
   font-weight: 500;
+  cursor: pointer;
+}
+
+.questions:hover {
+  color: hsl(292, 16%, 49%);
+}
+
+.questions:active {
+  color: hsl(292, 42%, 14%);
+}
+
+.questions:focus {
+  color: hsl(292, 42%, 14%);
+}
+
+.questions:checked {
+  color: hsl(292, 42%, 14%);
+}
+
+.questions:visited {
+  color: hsl(292, 42%, 14%);
+}
+
+.questions:enabled {
+  color: hsl(292, 42%, 14%);
 }
 
 .plus-icon {
@@ -180,4 +205,12 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+
+@media screen and (min-width: 376px) {
+  body {
+    background-image: url('/assets/images/background-pattern-desktop.svg');
+  }
 }
