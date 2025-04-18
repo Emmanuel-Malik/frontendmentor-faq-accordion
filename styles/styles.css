@@ -25,6 +25,7 @@ body {
   font-size: 1rem;
   background-color: hsl(276, 100.00%, 97.10%);
   background-image: url(/assets/images/background-pattern-mobile.svg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   align-content: center;
   justify-content: center;
@@ -208,9 +209,36 @@ body {
 }
 
 
-
+/* BIGGER MOBILE SCREENS */
 @media screen and (min-width: 376px) {
   body {
     background-image: url('/assets/images/background-pattern-desktop.svg');
+    background-attachment: fixed;
+  }
+}
+
+/* TABLETS */
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url('/assets/images/background-pattern-desktop.svg');
+    font-size: 1.5rem;
+    background-attachment: fixed;
+  }
+
+  .container {
+    width: 70%;
+  }
+}
+
+/* BIGGER SCREENS (LAPTOPS) */
+@media screen and (min-width: 1280px) {
+  body {
+    background-image: url('/assets/images/background-pattern-desktop.svg');
+    font-size: 1.2rem;
+    background-attachment: fixed;
+  }
+
+  .container {
+    width: 50%;
   }
 }
